@@ -17,10 +17,10 @@ origin_data = pd.read_csv(r'output.csv', index_col=None)
 # """
 
 # 创建OpenAI的api链接
-key = r'sk-t5Pc7liZ64RMDv9ogj7L7uB2sGyliaHSEYeS42ZoJrtiAkJI'
+# key = r'00000sk-t5Pc7liZ64RMDv9ogj7L7uB2sGyliaHSEYeS42ZoJrtiAkJI'
 client = OpenAI(
     base_url='https://api.openai-proxy.org/v1',
-    api_key=key
+    # api_key=key
 )
 
 ability = """
